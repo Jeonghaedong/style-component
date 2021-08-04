@@ -10,6 +10,16 @@ $grape: #e599f7;
     &:active {
       background: darken($color, 10%);
     }
+
+    &.outline {
+        color: $color;
+        background: none;
+        border: 1px solid $color;
+        &:hover {
+            background: $color;
+            color: black;
+        }
+    }
   }
 
 .Button {
@@ -58,5 +68,14 @@ $grape: #e599f7;
 
   & + & {
     margin-left: 1rem;
+  }
+
+  &.fullWidth {
+      width: 100%;
+      justify-content: center;
+      & + & {
+          margin-left: 0;
+          margin-top: 1rem;
+      }
   }
 }
