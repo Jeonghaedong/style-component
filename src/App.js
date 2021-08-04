@@ -10,6 +10,24 @@ function App() {
         <Button>BUTTON</Button>
         <Button size="small">BUTTON</Button>
       </div>
+      <div className="buttons">
+        <Button size="large" color="red">
+          BUTTON
+        </Button>
+        <Button color="red">BUTTON</Button>
+        <Button size="small" color="red">
+          BUTTON
+        </Button>
+      </div>
+      <div className="buttons">
+        <Button size="large" color="grape">
+          BUTTON
+        </Button>
+        <Button color="grape">BUTTON</Button>
+        <Button size="small" color="grape">
+          BUTTON
+        </Button>
+      </div>
     </div>
   );
 }
